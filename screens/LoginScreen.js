@@ -13,7 +13,7 @@ const LoginScreen = ({ navigation }) => {
 
       if (usuarioJson && usuarioJson.email === usuario && usuarioJson.senha === senha) {
         console.log('Login bem-sucedido');
-        navigation.navigate('UserList'); // Redireciona para a lista de usuários após o login
+        navigation.navigate('Home'); // Redireciona para a tela Home após o login bem-sucedido
       } else {
         alert('Usuário ou senha incorretos');
       }
@@ -67,6 +67,8 @@ const LoginScreen = ({ navigation }) => {
     </View>
   );
 };
+
+
 
 const styles = StyleSheet.create({
   container: {
