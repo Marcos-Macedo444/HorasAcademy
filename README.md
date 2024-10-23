@@ -36,7 +36,7 @@ horas_academyFront-master/
 
 1. Clone o repositório:
    ```bash
-   git clone <URL do repositório>
+   git clone https://github.com/Marcos-Macedo444/HorasAcademy.git
    ```
 
 2. Navegue até a pasta do projeto:
